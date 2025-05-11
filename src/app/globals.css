@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@plugin 'tailwind-scrollbar' {
+  nocompatible: true;
+}
+
+@theme {
+  --font-instrument-sans: var(--font-instrument-sans);
+}
+
+body {
+  @apply bg-black text-white;
+}
+
+.container {
+  @apply mx-auto w-full max-w-[1260px] px-5 lg:px-10 2xl:px-[90px];
+}
