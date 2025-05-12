@@ -70,7 +70,7 @@ const SkipSizeCard: React.FC<Props> = ({
       <div className='space-y-1 sm:hidden'>
         <p className='text-xs/3'>
           {size} Yard Skip{' '}
-          <span className='text-[10px]/[10px] text-[#9E9E9E]'>
+          <span className='text-[9px]/[9px] text-[#9E9E9E]'>
             {isAvailable ? 'Available' : unavailableReason}
           </span>
         </p>
